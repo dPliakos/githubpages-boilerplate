@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Mozilla Campus Clubs - Lambdaspace workshop</title>
+  <title>workshop - Lambdaspace workshop</title>
   <meta name="description" content="This is a a short desc.
 ">
 
@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="http://localhost:4000/static/css/bootstrap.min.css">
   <link rel="stylesheet" href="http://localhost:4000/static/css/mofo-bootstrap.css">
   <link rel="stylesheet" href="http://localhost:4000/static/css/app.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/events/">
 </head>
 
 
@@ -48,24 +48,31 @@
 </header>
 
 
+    <div class="jumbotron">
+  <p class="lead">
+    &nbsp;
+  </p>
+  <h1 class="display-3">workshop</h1>
+  <p class="lead">
+    &nbsp;
+  </p>
+</div>
+
+<style>
+    .jumbotron {
+        background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url('/static/img/events.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
 
 
     <div class="page-content">
-      <div class="home">
-        
-<div class="container">
-  <div class="row">
+      <div class="container">
+        <div class="home">
+          This is an event.
 
-    <div class="col-md-8">
-      <h2 id="kings-college-london">Welcome to your new website!</h2>
-      <p>
-        This is an template which we will use for setting up our first webpage.
-      </p>
-    </div>
-  </div>
-</div>
-
-
+        </div>
       </div>
     </div>
 
@@ -95,5 +102,6 @@
 
 
   </body>
+
 
 </html>
